@@ -127,7 +127,6 @@ public class HttpResponse extends HttpRequest {
 		} finally {
 			if (content != null) 
 				content.close();
-            httpConn.disconnect();
         }
 	}
 	
